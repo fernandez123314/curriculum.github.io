@@ -1,0 +1,132 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+
+
+
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: fade-in 1s ease-out;
+  }
+  
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Add some animations */
+  section {
+    animation: slide-up 1s ease-out;
+  }
+  
+  @keyframes slide-up {
+    0% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  li {
+    animation: fade-in 1s ease-out;
+  }
+  
+  /* Style the education section differently */
+  section:last-of-type {
+    background-color: #f0f0f0;
+  }
+  
+  section:last-of-type h2 {
+    color: #333;
+  }
+  
+  section:last-of-type ul li {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  /* Add some hover effects */
+  ul li:hover {
+    color: #333;
+  }
+  
+  ul li:hover:before {
+    content: "→ ";
+  }
+  
+  ul li:before {
+    content: "• ";
+    color: #666;
+  }
+  
+
+  .hidden {
+    display: none;
+  }
+  
